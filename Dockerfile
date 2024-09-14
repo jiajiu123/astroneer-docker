@@ -4,7 +4,7 @@ RUN apt-get update
 
 RUN apt-get install -y wine python3-pip python3-venv git
 
-RUN git clone https://github.com/JoeJoeTV/AstroTuxLauncher.git /astrotux
+RUN git clone https://github.com/jiajiu123/AstroTuxLauncher.git /astrotux
 
 VOLUME /astrotux/AstroneerServer/Astro/Saved
 # VOLUME /astrotux/launcher.toml
